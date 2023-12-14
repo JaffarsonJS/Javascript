@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(img.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+}   
+
+h1 {
+    display: flex;
+    justify-content: center;  
+}
+
+.todo-container {
+    margin-top: 3rem;
+    backdrop-filter: blur(4px);
+}
+
+input {
+    font-size: 1.5rem;  
+    padding: 5px 12px; 
+    border: 2px solid black;
+    word-wrap: break-word;
+}
+
+button {
+    font-size: 1.8rem;
+    padding: 1px 1rem;
+    transform: translate(0px, 1px);
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: transparent;
+}
+
+#todo-list {
+    background: rgba(255, 255, 255, 0.37);
+    margin-top: -17px;
+    word-wrap: break-word;
+    border-radius: 0px 0px 6px 6px;
+}
+
+ul {
+    word-wrap: break-word;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 6px 2px;
+    user-select: none; 
+    word-wrap: break-word;   
+}
+
+.instruct {
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.315);
+    padding: 5px 10px;
+    top: 220px;
+    left: 50px; 
+    border-radius: 10px;
+    user-select: none;
+}
+
+
