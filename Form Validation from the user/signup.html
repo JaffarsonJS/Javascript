@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="./signIn.html" onsubmit="return signup(event)">
+        <div class="input">
+            <input type="text" placeholder="Enter your Name" id="name">
+        </div>
+        <div class="input">
+            <input type="email" id="email" placeholder="Enter your Email-address">
+        </div>
+        <div class="input">
+            <input type="text" id="phno" placeholder="Enter your Phone Number">
+        </div>
+        <div class="input">
+            <select name="" id="sel">
+                <optgroup id="opgr">
+                    <option id="optio" value="Student">Student</option>
+                    <option id="optio" value="Teacher">Teacher</option>
+                    <option id="optio" value="Plumber">Plumber</option>
+                    <option id="optio" value="Chef">Chef</option>
+                </optgroup>
+            </select>
+        </div>
+        
+        <div class="input">
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="input">
+            <button type="submit" id="signUpBtn">Sign up</button>
+        </div>
+    </form>
+
+    <a href="./signIn.html"><button onsubmit="movie()" id="signInBtn">Sign In</button></a>
+    
+    <script src="./signup.js"></script>
+</body>
+</html>

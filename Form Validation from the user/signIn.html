@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="frm" onsubmit="return signin(event)">
+        <div class="input">
+            <input type="email" id="signInemail" placeholder="Enter your Email-address">
+        </div>
+        <div class="input">
+            <input type="password" id="signInpassword" placeholder="Enter your password">
+        </div>
+
+        <div class="input">
+            <button type="submit" style="right: 51%;" id="signInBtninSignInPage">Sign In</button>
+        </div>
+    </form>
+    
+    <div class="input" >
+        <button style="margin-left: 52%;" type="submit" id="signUpBtn"><a href="./signup.html">Sign up</a></button>
+    </div>
+
+    <script src="./signin.js"></script>
+</body>
+</html>

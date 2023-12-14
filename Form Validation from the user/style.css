@@ -1,0 +1,126 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+
+.gridstyle{
+    gap: 10rem;
+}
+.card>h1{
+    margin-bottom: 1rem;
+}
+.card{
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    background: #b1b1cab3;
+}
+
+#such1{
+    display: flex;
+    font-weight: 100;
+    color: green;
+    max-width: 600px;
+}
+
+button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+#search{
+    margin-left: 29%;
+    margin-top: 3%;
+}
+#signUpBtn:active{
+    background-color: rgba(46, 139, 86, 0.753);
+}
+
+#signUpBtn{
+    padding: 20px 30px;
+    background-color: seagreen;
+    position: relative;
+    margin-left: 6%;
+}
+#signInBtn{
+    padding: 20px 30px;
+    background-color: seagreen;
+    position: absolute;
+    right: 43%;
+    bottom: 141px;
+    margin-top: 2%;
+}
+#signInBtninSignInPage
+{
+    padding: 20px 30px;
+    background-color: seagreen;
+    position: absolute;
+    right: 48%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#clear{
+    padding: 20px 30px;
+    background-color: seagreen;
+    margin-left: 62%;
+}
+form{
+    margin-left: 36%;
+    margin-top: 127px;
+}
+input{
+    padding: 15px 100px;
+    margin-bottom: 20px;
+    border: none;
+}
+input:active{
+    border-bottom: 1px solid red;
+}
+#registerPageRegisterBtn{
+    margin-left: 42%;
+    margin-right: 20px;
+    padding: 20px 30px;
+    background-color: seagreen;
+}
+
+#registerPageloginBtn{
+    margin-top: 2%;
+    padding: 20px 30px;
+    background-color: seagreen;
+}
+#welMsg{
+    margin-left: 40%;
+    margin-top: 170px;
+}
+#loginButton{
+    margin-left: 20px;
+    
+}
+#registerButton{
+    margin-left: 87px;
+    
+}
+#password{
+    margin-top: 2%;   
+}
+
+#sel{
+    padding: 20px 138px;
+    outline: none;
+    border: none;
+}
+option{
+    font-size: 15px;
+    margin-right: 30px;
+    padding-left: 20px;
+}
